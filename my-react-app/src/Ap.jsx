@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import ProductList from "./components/ProductList";
 import SearchBar from "./components/SearchBar";
-import AppNavbar from "./components/Navbar"; // Import renamed Navbar
+import AppNavbar from "./components/Navbar";
 
 function Ap() {
   const [products, setProducts] = useState([]);

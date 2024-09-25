@@ -10,19 +10,19 @@ const ProductList = ({ products, addToCart }) => {
       <div className="row">
         {products.map((product) => (
           <div key={product.id} className="col-md-3 mb-4"> 
-            <div className="card custom-card d-flex flex-column"> {/* Use flex-column */}
-              <div className="product-image-container flex-grow-1"> {/* Allow image container to grow */}
+            <div className="card custom-card d-flex flex-column"> 
+              <div className="product-image-container flex-grow-1"> 
                 <img 
                   src={product.image} 
                   alt={product.title} 
                   className="card-img-top product-image" 
                 />
               </div>
-              <div className="card-body d-flex flex-column"> {/* Use flex-column for card body */}
+              <div className="card-body d-flex flex-column">
                 <h3 className="card-title">{product.title}</h3>
                 <p className="card-text">Price: ${product.price}</p>
                 
-                {/* Rating section */}
+              
                 <div className="rating">
                   {Array.from({ length: 5 }, (_, index) => (
                     <FontAwesomeIcon 
@@ -34,7 +34,7 @@ const ProductList = ({ products, addToCart }) => {
                 </div>
 
                 <button 
-                  className="btn btn-primary btn-sm mt-auto" // Add mt-auto to push the button down
+                  className="btn btn-primary btn-sm mt-auto" 
                   onClick={() => addToCart(product)}
                 >
                   Add to Cart

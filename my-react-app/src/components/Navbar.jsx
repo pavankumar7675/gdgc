@@ -34,10 +34,10 @@ const AppNavbar = ({ cart, removeFromCart }) => {
                     src={item.image} 
                     alt={item.title}
                     style={{
-                      width: '70px', // Increase image size
-                      height: '70px', // Increase image size
+                      width: '70px', 
+                      height: '70px', 
                       objectFit: 'cover', 
-                      marginRight: '15px', // Adjust margin for larger images
+                      marginRight: '15px', 
                     }}
                   />
                   <div>
