@@ -1,0 +1,43 @@
+
+.navbar .nav-link {
+  transition: color 0.3s ease; 
+}
+
+.navbar .nav-link:hover {
+  color: #f8f9fa; 
+}
+
+.cart-item {
+  transition: background-color 0.3s ease; 
+}
+
+.cart-item:hover {
+  background-color: #e9ecef; 
+}
+
+.dropdown-menu {
+  animation: fadeIn 0.3s ease; 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.btn-danger {
+  transition: background-color 0.3s ease; }
+
+.btn-danger:hover {
+  background-color: #dc3545; 
+}
+
+.badge {
+  transition: transform 0.3s ease; 
+}
+
+.badge:hover {
+  transform: scale(1.1); }

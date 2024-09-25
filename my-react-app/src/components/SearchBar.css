@@ -1,0 +1,12 @@
+.input-group {
+  max-width: 600px; 
+  margin: auto;
+}
+
+.form-control {
+  border-radius: 0.25rem; 
+}
+
+.btn {
+  border-radius: 0.25rem; 
+}
